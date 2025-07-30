@@ -4,11 +4,17 @@ This is a full-stack AI chatbot using LangGraph, FastAPI, and Streamlit. It supp
 Users can define system prompts, select models dynamically, and interact with the AI in a friendly chat interface. It’s a great starting point for anyone exploring agentic AI, ReAct-style workflows, and lightweight LLM integrations.
 
 ## 🚀 Features
+
 1. Choose between Groq (LLaMA3, Mixtral) and OpenAI (GPT-4o-mini) models
+   
 2. Use LangGraph to create ReAct-style AI agents
+ 
 3. Optional web search powered by Tavily for up to date answers
+
 4. Define your own system prompts to control agent behavior
+
 5. Clean and responsive Streamlit frontend
+
 6. FastAPI backend that connects the frontend to the agent logic
 
 ## 📁 Project Structure
