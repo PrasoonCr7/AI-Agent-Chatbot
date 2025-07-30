@@ -7,10 +7,11 @@ from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 from dotenv import load_dotenv
 load_dotenv()
+
 # Set your API keys
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Enter Your OPENAI API KEY"
+os.environ["TAVILY_API_KEY"] = "Enter Your TAVILY API KEY"
+os.environ["GROQ_API_KEY"] = "Enter Your GROQ API KEY"
 
 # Step 2: Initialize models and tools
 openai_llm = ChatOpenAI(model="gpt-4o-mini")
