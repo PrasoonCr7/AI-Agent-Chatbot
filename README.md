@@ -11,14 +11,14 @@ Users can define system prompts, select models dynamically, and interact with th
 5. Clean and responsive Streamlit frontend
 6. FastAPI backend that connects the frontend to the agent logic
 
-📁 Project Structure
+## 📁 Project Structure
 File	Description
 ai_agent.py	Core logic for LangGraph-based AI agent
 backend.py	FastAPI app that receives requests and returns responses
 frontend.py	Streamlit app for user interaction
 requirements.txt	Python dependencies
 
-⚙️ Installation
+## ⚙️ Installation
 
 Navigate into the folder: cd langgraph-ai-chatbot
 
@@ -30,20 +30,20 @@ GROQ_API_KEY
 TAVILY_API_KEY (optional for web search)
 You can set them using environment variables or in Streamlit secrets if deploying online.
 
-▶️ Running the App Locally
+## ▶️ Running the App Locally
 Step 1: Start the FastAPI backend: python backend.py
 Step 2: Launch the Streamlit frontend: streamlit run frontend.py
 Visit http://localhost:8501 in your browser to use the chatbot.
 
-🌐 Deployment
+## 🌐 Deployment
 You can deploy the frontend on Streamlit Cloud and the backend on Render or Railway. For Streamlit-only deployment, include secrets in the app settings for your API keys.
 
-🔐 API Keys Required
+## 🔐 API Keys Required
 OpenAI (for GPT-4o-mini)
 Groq (for LLaMA3, Mixtral models)
 Tavily (optional, for real-time web search)
 
-💡 Future Enhancements (Ideas)
+## 💡 Future Enhancements (Ideas)
 Add chat memory (multi-turn context)
 Support vector search or document-based RAG
 User authentication for secure usage
